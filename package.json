@@ -1,0 +1,25 @@
+{
+  "name": "corretora-dos-sonhos-api",
+  "version": "1.0.0",
+  "description": "corretora dos sonhos API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GraciLopes/Corretora-Dos-Sonhos-API.git"
+  },
+  "author": "Graciela Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GraciLopes/Corretora-Dos-Sonhos-API/issues"
+  },
+  "homepage": "https://github.com/GraciLopes/Corretora-Dos-Sonhos-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
