@@ -1,10 +1,10 @@
 const mongoose = require("mongoose")
  //criando a url da conexão com o mongo
-//const dotenv = require('dotenv')
+const dotenv = require('dotenv')
 
-//dotenv.config()
+dotenv.config()
 
-const DB_URI = /*process.env.DB_URI*/  "mongodb://localhost:27017/Corretora"
+const DB_URI = process.env.DB_URI || "mongodb://localhost:27017/Corretora"
 
 const connect = () =>{
     mongoose.connect(DB_URI, {useNewUrlParser: true, 

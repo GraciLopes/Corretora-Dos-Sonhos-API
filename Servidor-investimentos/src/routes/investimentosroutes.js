@@ -35,14 +35,14 @@ router.get("/id/:id", controller.getById)
 //@desc Exclui um telefone por id especifico
 //@access public
 //@endpoint http://localhost:3030/investimentos/deletar?_id=
-//http://localhost:3030/investimentos/deletar?_id=5fd3ef6316dc64112431eb9f
+//http://localhost:3030/investimentos/deletar?_id= // colocar o id autogerado
 router.delete("/deletar", controller.deleteById)
 
 //@route PUT /atualizar 
 //@query id
 //@desc Atualiza completamente o investimento
 //@access public
-//@endpoint http://localhost:3030/investimentos
+//@endpoint http://localhost:3030/investimentos/atualizar?_id= // colocar o id autogerado
 router.put("/atualizar", controller.investimentoUpdate)
 
 module.exports = router

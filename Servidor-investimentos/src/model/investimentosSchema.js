@@ -9,7 +9,7 @@ _id: {
     required: true,
 },
 
-nome:{ //renda fixa = nome da renda
+nome:{ // nome = nome da renda fixa 
     type:String,
     required: true
 },
