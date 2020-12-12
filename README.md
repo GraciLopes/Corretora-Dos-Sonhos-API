@@ -10,26 +10,40 @@ Por esse motivo, deixo aqui dois links de cursos da FGV gratuitos, com o objetiv
 
 Sugerir e oferecer  investimentos de renda fixa: CDB, LC, LCA, LCI, Tesouro Direto, de acordo com o perfil do cliente pessoa física, iniciante, usando como público alvo mães de baixa renda com objetivos ou sonhos ligados aos filhos (faculdade, intercâmbio, carro, viagem, casa própria).
 
-## Tecnologias e ferramentas utilizadas: 
 
-* Nodemon
-* Express
-* Cors
-* Visual Studio Code
-* Dotenv
-* Npm
-* Banco de dados MongoDB
+### Tecnologias e ferramentas utilizadas: 📌 	
 
+<img src= "https://img.shields.io/badge/-Node.Js-blue">
 
-## Endpoints: 
+<img src= "https://img.shields.io/badge/-Nodemoon-lightgrey">	
 
-| Método  |Endpoint
-| ------------- |:--
-| GET|
-| POST      
-| GET por ID
-| DELETE
-| PUT
+<img src= "https://img.shields.io/badge/MongoDb-Atlas-red">	
+
+<img src= "https://img.shields.io/badge/-Dotevn-yellow">	
+
+<img src= "https://img.shields.io/badge/-Body--Parser-orange">	
+
+<img src= "https://img.shields.io/badge/-Express-green">	
+
+<img src= "https://img.shields.io/badge/-Mongoose-red">	
+
+<img src= "https://img.shields.io/badge/-Heroku-yellowgreen">	
+
+<img src= "https://img.shields.io/badge/-Insomnia-orange">
+
+## Instruções para a utilização da API:
+
+Clonar o repositório na sua máquina.
+
+Intalar as dependências mencionadas.
+
+NPM Start
+
+Remotamente
+
+Usar o link do Heroku
+
+<https://corretoradossonhos.herokuapp.com/investimentos>
 
 ## Graciela Lopes
 * [linkedin](https://www.linkedin.com/in/gracielalopes/)
