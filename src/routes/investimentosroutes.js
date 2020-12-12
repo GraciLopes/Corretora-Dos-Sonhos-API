@@ -16,11 +16,11 @@ router.get("/", controller.getAll)
 //@endpoint http://localhost:3030/investimentos/criar
 router.post("/criar", controller.addInvestimento)
 
-//@route GET /contatos veeeer****
+//@route GET /investimentos
 //@params nome
-//@desc Retornar todos os contatos
+//@desc Retornar todos os investimentos
 //@access public
-//@endpoint http://localhost:3030/contatos/nome/
+//@endpoint http://localhost:3030/investimentos/nome/
 router.get("/nome/:nome", controller.getByName)
 
 //@route GET /id 
@@ -35,13 +35,14 @@ router.get("/id/:id", controller.getById)
 //@desc Exclui um telefone por id especifico
 //@access public
 //@endpoint http://localhost:3030/investimentos/deletar?_id=
+//http://localhost:3030/investimentos/deletar?_id= // colocar o id autogerado
 router.delete("/deletar", controller.deleteById)
 
 //@route PUT /atualizar 
 //@query id
 //@desc Atualiza completamente o investimento
 //@access public
-//@endpoint http://localhost:3030/investimentos
+//@endpoint http://localhost:3030/investimentos/atualizar?_id= // colocar o id autogerado
 router.put("/atualizar", controller.investimentoUpdate)
 
 module.exports = router

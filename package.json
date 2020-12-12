@@ -1,7 +1,7 @@
 {
-  "name": "corretora-dos-sonhos-api",
+  "name": "corretora",
   "version": "1.0.0",
-  "description": "corretora dos sonhos API",
+  "description": "Corretora de investimentos",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/GraciLopes/Corretora-Dos-Sonhos-API#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.11.5",
+    "mongoose": "^5.11.7",
     "nodemon": "^2.0.6"
   }
 }

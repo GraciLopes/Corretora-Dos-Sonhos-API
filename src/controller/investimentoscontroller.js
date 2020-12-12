@@ -23,7 +23,7 @@ const getByName = (req, res) => {
         if (error) {
             return res.status(500).send(error)
         } else {
-            if (contato) {
+            if (investimentos) {
                 return res.status(200).send(investimentos)
             } else {
                 return res.status(404).send("Investimento não encontrado")
@@ -99,7 +99,7 @@ const investimentoUpdate = (req, res) => {
         idParam,
         bodyDoInvestimento,
         update,
-        (error, investimento) => {
+        (error, investimentos) => {
             if (error) {
                 return res.status(500).send({
                     mensagem: "Infelizmente não foi possível atualizar o investimento existente.",
@@ -108,7 +108,7 @@ const investimentoUpdate = (req, res) => {
             } else {
                 return res.status(200).send({
                     mensagem: "Investimento atualizado com sucesso!",
-                    contato
+                    investimentos
                 })
             }
         })
